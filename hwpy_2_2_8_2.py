@@ -1,0 +1,6 @@
+x = int(input('Веддите колличество чисел массива: '))
+print('Введите элементы массива через пробел: ')
+mass = list(map(int, input().split()))
+a = mass.pop()
+mass.insert(0, a)
+print(mass)
